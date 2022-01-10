@@ -2558,6 +2558,15 @@
     "snapdragon" "^0.8.1"
     "to-regex" "^3.0.1"
 
+"expo-app-auth@~11.0.3":
+  "integrity" "sha512-vw6rWfrVAKFaDB/VShEZYH/Vsd2dYp5BS4Vuq3UARDlrCNwNumO8AualmffTc42k13RTBlKhGoaxUaol/UiTUA=="
+  "resolved" "https://registry.npmjs.org/expo-app-auth/-/expo-app-auth-11.0.3.tgz"
+  "version" "11.0.3"
+  dependencies:
+    "@expo/config-plugins" "^4.0.2"
+    "expo-modules-core" "~0.4.4"
+    "invariant" "^2.2.4"
+
 "expo-application@~4.0.1":
   "integrity" "sha512-yZM/SrpWdi84m5+5F3VDfhrMZOz/uKwXcgBhOP1wzfXt0otGSRW1V5tM+a0sgaKZsDRCGojTU7Jm73BVwwVrwg=="
   "resolved" "https://registry.npmjs.org/expo-application/-/expo-application-4.0.1.tgz"
@@ -2602,6 +2611,13 @@
   dependencies:
     "fontfaceobserver" "^2.1.0"
 
+"expo-google-app-auth@^9.0.0":
+  "integrity" "sha512-UzL1N8dd2Cm84FkgWCbkkYJv79ptFLescGaOpoJRXlnXVEkmz/iQ7zETmwOsIcq5ISAPXvgrSMb1LniqjgmnGQ=="
+  "resolved" "https://registry.npmjs.org/expo-google-app-auth/-/expo-google-app-auth-9.0.0.tgz"
+  "version" "9.0.0"
+  dependencies:
+    "expo-app-auth" "~11.0.3"
+
 "expo-keep-awake@~10.0.1":
   "integrity" "sha512-kcBtoDGkm3RRe6BpKDvR7gof/ErajEia38u92pRvNRctdh+p8AFO7GQuiipyg3iMfhcCFVTCIV7h3tuA0g/yDw=="
   "resolved" "https://registry.npmjs.org/expo-keep-awake/-/expo-keep-awake-10.0.1.tgz"
@@ -2617,6 +2633,14 @@
     "fast-glob" "^3.2.5"
     "find-up" "^5.0.0"
     "fs-extra" "^9.1.0"
+
+"expo-modules-core@~0.4.4":
+  "integrity" "sha512-uCZA3QzF0syRaHwYY99iaNhnye4vSQGsJ/y6IAiesXdbeVahWibX4G1KoKNPUyNsKXIM4tqA+4yByUSvJe4AAw=="
+  "resolved" "https://registry.npmjs.org/expo-modules-core/-/expo-modules-core-0.4.10.tgz"
+  "version" "0.4.10"
+  dependencies:
+    "compare-versions" "^3.4.0"
+    "invariant" "^2.2.4"
 
 "expo-modules-core@0.6.4":
   "integrity" "sha512-I5MvSZHjww4Jfvob/woCbI0ZLZIUBmhoiLeZsMJoWJuWa8QmtxXjI+4eRjaDB7+RxNVhrnVcmRjQPYG/5HepVg=="
